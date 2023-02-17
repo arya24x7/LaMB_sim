@@ -10,7 +10,7 @@ Simulation of LaMB in Gazebo environment.
 ![alt_text][image1]
 
 ## Real Robot 
-For Real Robot Instruction [visit here](https://github.com/G1-k/LaMB.git)
+For Real Robot Instruction [visit here](https://github.com/arya24x7/AMAR.git)
 
 ## Instructions
 
@@ -18,7 +18,7 @@ For Real Robot Instruction [visit here](https://github.com/G1-k/LaMB.git)
 
 ### Install Pre-requiste
 ```
-sudo apt-get install ros-melodic-navigation ros-melodic-gmapping
+sudo apt-get install ros-noetic-navigation ros-noetic-gmapping
 
 ```
 
