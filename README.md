@@ -42,7 +42,7 @@ roslaunch lamb_sim move_base.launch
 ```
  Visualization
 ```
-cd /workspace/src/lamb_sim/rviz/
+cd /workspace/src/LaMB_sim/rviz/
 rviz -d navigate.rviz
 ```
 
