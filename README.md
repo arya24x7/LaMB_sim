@@ -30,10 +30,10 @@ sudo apt-get install ros-noetic-navigation ros-noetic-gmapping
 
  Visualization
 ```
-cd /workspace/src/LaMB_sim/rviz/
+cd ~/workspace/src/LaMB_sim/rviz/
 rviz -d mapping.rviz
 ```
-Save Map - `rosrun map_server map_saver -f /workspace/src/LaMB_sim/maps/map_name`
+Save Map - `rosrun map_server map_saver -f ~/workspace/src/LaMB_sim/maps/map_name`
 
 ### 4. Navigation
 ```
@@ -42,7 +42,7 @@ roslaunch lamb_sim move_base.launch
 ```
  Visualization
 ```
-cd /workspace/src/LaMB_sim/rviz/
+cd ~/workspace/src/LaMB_sim/rviz/
 rviz -d navigate.rviz
 ```
 
