@@ -16,6 +16,16 @@ For Real Robot Instruction [visit here](https://github.com/arya24x7/AMAR.git)
 
 ### 1. Give a star to this repo at the top.
 
+### Source workspace
+```
+cd ~/workspace
+catkin_make
+sudo nano ~/.bashrc
+#in last line add
+source ~/workspace/devel/setup.bash
+#save file
+```
+
 ### Install Pre-requiste
 ```
 sudo apt-get install ros-noetic-navigation ros-noetic-gmapping
@@ -30,6 +40,7 @@ sudo apt-get install ros-noetic-navigation ros-noetic-gmapping
 
  Visualization
 ```
+
 cd ~/workspace/src/LaMB_sim/rviz/
 rviz -d mapping.rviz
 ```
